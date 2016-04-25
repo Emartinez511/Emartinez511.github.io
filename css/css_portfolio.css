@@ -8,8 +8,9 @@ body {
 }
 
 #header_img {
-  height: 300px;
+  height: 200px;
   width: 200px;
+  border-radius: 10%;
 }
 
 .thumbnail {
@@ -24,6 +25,7 @@ div.caption {
 
 div.jumbotron   {
     text-align: center;
+    background-color: rgba(0, 0, 0, .09);
 }
 
 .btn    {
@@ -83,6 +85,9 @@ div.jumbotron   {
     } 
 
 
+.previewer {
+  border-radius: 20%;
+}
     /*EXPERIMENT*/
 
 .marketing .col-lg-4 {
