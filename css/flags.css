@@ -1,0 +1,640 @@
+
+/*USA FLAG*/
+.us_flag   {
+    width: 400px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    position: relative;
+}
+
+.blue_us    {
+    width: 180px;
+    height: 120px;
+    background-color: blue;
+    padding: 0;
+    position: absolute;
+}
+
+.us_stars   {
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 9px;
+}
+.stripes    {
+    width: 400px;
+    height: 20px;
+    background-color: red;
+    color: red;
+}
+
+.redstripes_us {
+    background-color: red;
+    color: red;
+    margin: 0;
+}
+
+.whitestripes_us {
+    background-color: white;
+}
+
+
+/*JAPAN FLAG*/
+
+.japan  {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+
+.japan_circle   {
+    border-radius:50%;  
+    background-color: red;
+    color: red;
+    width: 130px;
+    height: 130px;
+    margin: 35px 30px 0px 130px;
+}
+
+/*PUERTO RICO*/
+
+.puerto_rico    {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+
+.pr_triangle    {
+    width: 0; 
+    height: 0; 
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 160px solid blue;
+    position: absolute;
+    
+} 
+
+.pr_star    {
+    position: absolute;
+    text-align: center;
+    margin: -60px 0 0 -150px ;
+    font-size: 80px;
+    color: white;
+
+
+    
+}
+
+.pr_stripes    {
+    width: 400px;
+    height: 20px;
+    position: absolute;
+
+}
+
+.redstripes_pr {
+    background-color: red;
+    color: red;
+    margin:  0;
+    height: 40px
+}
+
+.whitestripes_pr {
+    background-color: white;
+    /*margin: 0;*/
+    height: 7.8px;
+}
+
+/*SCOTLAND*/
+
+.scotland { 
+    width: 400px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+.left_triangle_sc {
+    width: 0; 
+    height: 0; 
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-left: 160px solid #0072C5;
+    margin: 20px 0 0 0;
+}
+
+.right_triangle_sc {
+    width: 0; 
+    height: 0; 
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-right: 160px solid #0072C5;
+    margin: -160px 0 0 240px;
+}
+
+.top_triangle_sc {
+    width: 0; 
+    height: 0; 
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-top: 80px solid #0072C5;
+    margin: -180px 0 0 40px;
+}
+
+.bottom_triangle_sc {
+    width: 0; 
+    height: 0; 
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-bottom: 80px solid #0072C5;
+    margin: 40px 0 0 40px;
+}
+
+.saint_lucia { 
+    width: 400px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    background-color: #6CF;
+    padding: 0 0 20px 0;
+}
+
+.white_tri_sl {
+    width: 0; 
+    height: 0; 
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 140px solid White;
+    margin: 30px 0 0 120px;
+
+}
+
+.black_tri_sl   {
+    width: 0; 
+    height: 0; 
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 120px solid black ;
+    margin: 50px  0 0 130px;
+    float: left;  
+}
+
+
+.yellow_tri_sl   {
+     width: 0; 
+    height: 0; 
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #FC0 ;
+    margin: -70px  140px 0 0;
+    float: right;  
+}
+
+/*CONGO FLAG*/
+
+.congo { 
+    height: 170px;
+    width: 400px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    background-color: #CE1021;
+    padding: 0 0 20px 0;
+  
+}
+
+.yellow_congo   {
+    border-left: 0px solid transparent;
+    border-right: 400px solid transparent;
+    border-top: 150px solid #F7D618;
+}
+
+.yellow_bottom_congo {
+    border-right: 0px solid transparent;
+    border-left: 400px solid transparent;
+    border-bottom: 150px solid #F7D618;
+    margin: -110px 0 0 0;
+
+}
+
+.blue_top_congo   {
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 365px solid transparent;
+    border-top: 135px solid #00A3DD;
+    margin: -190px 0 0 0;
+}
+
+.blue_bottom_congo   {
+    width: 0;
+    height: 0;
+    border-right: 0px solid transparent;
+    border-left: 365px solid transparent;
+    border-bottom: 135px solid #00A3DD;
+    margin: -80px 0 0 35px;
+}
+
+.congo_star {
+    text-align: center;
+    margin: -145px 0 0 20px ;
+    font-size: 80px;
+    color: #F7D618;
+}
+
+/*ENGLISH FLAG*/
+
+.england    {
+    height: 170px;
+    width: 400px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 0 20px 0;
+    overflow: hidden;
+}
+
+.england_cross1 {
+    background-color: red;
+    height: 30px;
+    width: 400px;
+    margin: 80px 0 0 0;
+}
+
+.england_cross2 {
+    background-color: red;
+    height: 190px;
+    width: 30px;
+    margin: -110px 0 0 180px ;
+}
+
+.england_topL_red   {
+    width: 0; 
+    height: 0; 
+    border-left: 0px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 70px solid red;
+    margin: -190px 0 0 0;
+    overflow: hidden;
+}
+.england_topR_red   {
+    width: 0; 
+    height: 0; 
+    border-left: 160px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 80px solid red;
+    margin:  -200px 0 0 240px;
+    overflow: hidden;
+}
+
+.england_bottomR_red   {
+    width: 0; 
+    height: 0; 
+    border-left: 140px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 70px solid red;
+    margin: -80px 0 0 260px;
+
+}
+
+.england_bottomL_red    {
+    width: 0; 
+    height: 0;
+    overflow: hidden;
+    border-left: px solid transparent;
+    border-right: 160px solid transparent;
+    border-top: 80px solid red;
+    margin: 50px 0 0 0px;
+    overflow: hidden;
+    /*position: absolute;*/
+}
+
+.england_bottomL_white  {
+    width: 0; 
+    height: 0; 
+    border-left: 0px solid transparent;
+    border-right: 130px solid transparent;
+    border-top: 63px solid white;
+    margin: 50px 0 0 0px;
+    position: absolute;
+}
+
+.england_topR_white  {
+    width: 0; 
+    height: 0; 
+    border-left: 130px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 63px solid white;
+    margin: -63px 0 0 270px;
+}
+
+.england_bottomR_white   {
+    width: 0; 
+    height: 0; 
+    border-left: 110px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 53px solid white;
+    margin: 50px 0 0 291px;
+    /*position: absolute;*/
+
+}
+.england_topL_white   {
+    width: 0; 
+    height: 0; 
+    border-left: 0px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 53px solid white;
+    margin: -156px 0 0 0px;
+}
+
+
+.england_bottomL_blue  {
+    width: 0; 
+    height: 0; 
+    border-left: 0px solid transparent;
+    border-right: 95px solid transparent;
+    border-top: 43px solid blue;
+    margin: 50px 0 0 0px;
+    position: absolute;
+}
+
+.england_topR_blue  {
+    width: 0; 
+    height: 0; 
+    border-left: 95px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 45px solid blue;
+    margin: -47px 0 0 305px;
+}
+
+.england_bottomR_blue   {
+    width: 0; 
+    height: 0; 
+    border-left: 95px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 45px solid blue;
+    margin: 50px 0 0 305px;
+    position: absolute;
+
+}
+
+.england_topL_blue   {
+    width: 0; 
+    height: 0; 
+    border-left: 0px solid transparent;
+    border-right: 95px solid transparent;
+    border-bottom: 45px solid blue;
+    margin: -45px 0 0 0px;
+}
+
+.england_topCR_blue {
+    width: 0; 
+    height: 0; 
+    border-left: px solid transparent;
+    border-right: 140px solid transparent;
+    border-top: 70px solid blue;
+    margin: -70px 0 0 220px;
+}
+.england_topCL_blue {
+    width: 0; 
+    height: 0; 
+    border-left: 140px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 70px solid blue;
+    margin: -70px 0 0 30px;
+
+}
+.england_bottomCR_blue  {
+    width: 0; 
+    height: 0; 
+    border-left: 0px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 70px solid blue;
+    margin: 55px 0 0 220px;
+
+}
+.england_bottomCL_blue  {
+    width: 0; 
+    height: 0; 
+    border-left: 140px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 70px solid blue;
+    margin: -70px 0 0 30px;
+}
+
+#container  {
+    overflow: hidden;
+}
+
+/*ISRAEL FLAG*/
+
+.israel {
+    height: 170px;
+    width: 400px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 0 20px 0;
+}
+
+.stripe_top_israel  {
+    background-color: blue;
+    height: 20px;
+    width: 400px;
+    margin: 20px 0 0 0;
+}
+
+
+.stripe_bottom_israel  {
+    background-color: blue;
+    height: 20px;
+    width: 400px;
+    margin: 110px 0 0 0;
+}
+
+.triangle_up_israel {
+    color: blue;
+    font-size: 120px;
+    text-align: center;
+    margin: -140px 0 0 0;
+    font-weight: bolder;
+}
+
+
+/*MACEDONIA FLAG*/
+
+.macedonia {
+    height: 170px;
+    width: 400px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    background-color: yellow;
+    padding: 0 0 20px 0;
+}
+
+.top_red_macedonia  {
+    width: 0; 
+    height: 30px; 
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-top: 80px solid red;
+    margin: -191px 0 0 490px; 
+}
+
+.right_red_macedonia    {
+    width: 0; 
+    height: 0; 
+    border-top: 95px solid transparent;
+    border-bottom:95px solid transparent; 
+    border-right:190px solid red;
+    margin: -110px 0 0 633px;
+
+}
+.bottom_red_macedonia   {
+    width: 0; 
+    height: 30px; 
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 80px solid red;
+    margin: -110px 0 0 490px; 
+}
+
+.left_red_macedonia {
+    width: 0; 
+    height: 0; 
+    border-top: 95px solid transparent;
+    border-bottom:95px solid transparent; 
+    border-left:190px solid red;
+    margin: -190px 0 0 420px;
+ 
+}
+.top_macedonia {
+    width: 0; 
+    height: 30px; 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 80px solid yellow;
+    margin: -190px 0 0 590px;
+
+}
+
+.bottom_macedonia{
+    width: 0; 
+    height: 30px; 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 80px solid yellow;
+    margin: -45px 0 0 590px;
+}
+
+.left_macedonia    {
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 180px solid yellow;
+    margin: -124px 0 0 419px;
+
+}
+
+.right_macedonia    {
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 180px solid yellow;
+    margin: -45px 0 0 644px;
+
+}
+
+.circle_macedonia   {
+    width: 70px;
+    height: 70px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: -60px 0 0 585px;
+}
+
+.inner_circle_macedonia {
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: -60px 0 0 595px;
+}
+    /*BMO*/
+
+.bmo_body   {
+    height: 180px;
+    width: 170px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: #59B09F;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.bmo_face   {
+    height: 70px;
+    width: 120px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: #B9DFCA;
+    border-radius: 20px;
+    margin: 20px 0 0 25px;
+    position: absolute;
+}
+
+.bmo_slot   {
+    height: 5px;
+    width: 70px;
+    border: 2px solid  black;
+    margin: 0 auto;
+    background-color: #0E3D29;
+    border-radius: 20px;
+    margin: 100px 0 0 25px;
+    position: absolute;
+}
+
+.bmo_round_button   {
+    width: 10px;
+    height: 10px;
+    background: blue;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: 100px 0 0 120px;
+    position: absolute;
+}
+
+.bmo_left_eye   {
+    width: 10px;
+    height: 10px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    margin: 40px 0 0 60px;
+}
+
+.bmo_right_eye   {
+    width: 10px;
+    height: 10px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    margin: 40px 0 0 100px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/css/css_calculator.css">
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="bmo_body"></div>
+<div class="bmo_face_off">Press Blue Button To Start!</div>
+<div class="bmo_face" id="toggleText" style="display: none">
+<h1 id="main_header">Calculator</h1>
+    <input type="text" id="input_a" class="calculator_field" value="" readonly>
+    <input type="text" id="input_op" class="calculator_field" value="" readonly>
+    <input type="text" id="input_b" class="calculator_field" value="" readonly>
+
+    <div class="myCal">
+        <div>
+            <button class="cal_buttons" id="1" value="1">1</button>
+            <button class="cal_buttons" id="2" value="2">2</button>
+            <button class="cal_buttons" id="3" value="3">3</button>
+            <button class="cal_buttons_op" id="+" value="+">+</button>
+        </div>
+        <div>
+            <button class="cal_buttons" id="4" value="4">4</button>
+            <button class="cal_buttons" id="5" value="5">5</button>
+            <button class="cal_buttons" id="6" value="6">6</button>
+            <button class="cal_buttons_op" id="-" value="-">-</button>
+        </div>
+        <div>
+            <button class="cal_buttons" id="7" value="7">7</button>
+            <button class="cal_buttons" id="8" value="8">8</button>
+            <button class="cal_buttons" id="9" value="9">9</button>
+            <button class="cal_buttons_op" id="*" value="*">*</button>
+        </div>
+        <div>
+            <button class="cal_buttons" id="clear">C</button>
+            <button class="cal_buttons" id="0" value="0">0</button>
+            <button class="cal_buttons" id="decimal" value=".">.</button>
+            <button class="cal_buttons_op" id="/" value="/">/</button>
+            <button class="cal_buttons_equal" id="equalsSign" >=</button>
+            <button class="cal_buttons_op" id="'sqrt'" value="sqrt">sqrt</button>
+            <button class="cal_buttons_op" id="binary" value="binary">to binary</button>
+            <button class="cal_buttons_op" id="toDecimal" value="toDecimal">to decimal</button>
+            <button class="cal_buttons_op" id="X^y" value="^">X^y</button>
+            <button class="cal_buttons_op" id="toHex" value="toHex">Hex</button>
+        </div>
+
+    </div>
+</div>
+<div id="bmo_slot"></div>
+<div id="bmo_round_button2"></div>
+<button id="bmo_round_button"></button>
+<div id="bmo_round_green2"></div>
+<div id="bmo_round_green"></div>
+<div id="cross"></div>
+<div id="cross2"></div>
+<div id="triangle-up2"></div>
+<div id="triangle-up"></div>
+<div id="bmo_round_red2"></div>
+<div id="bmo_round_red"></div>
+<div id="bmo_slot2"></div>
+<div id="bmo_slot3"></div>
+
+
+<script src="js/calculator.js"></script>
+
+</body>
+</html>

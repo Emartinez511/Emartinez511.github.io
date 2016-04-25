@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Konami Code</title>
+</head>
+<body>
+    <h1>Konami Code</h1>
+<div id="toggleText" style="display: none">
+<img src="/img/metalgear.gif">
+<audio src="/img/alert.mp3" type="audio/mp3"></audio>
+</div>
+    <script src="/js/jquery.js"></script>
+    <script>
+        "use strict";
+        $(document).ready(function(){
+
+        var combokeys = [], 
+        konami = "38,38,40,40,37,39,37,39,66,65,13";
+        var $text = $('#toggleText');
+
+        $(document).keydown(function(e) {
+
+            combokeys.push( e.keyCode );
+
+            if ( combokeys.toString().indexOf( konami ) >= 0 ) {
+
+                $(document).unbind('keydown');
+                $text.css('display', 'block');
+                $('body').css('background-color', 'black');
+            }
+
+        });
+    });
+
+
+    </script>
+</body>
+</html>

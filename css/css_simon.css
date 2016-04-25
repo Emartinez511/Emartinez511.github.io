@@ -1,0 +1,136 @@
+body    {
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+h1  {
+    color: white;
+    margin-left: 60px;
+}
+
+.square{
+    height: 210px;
+    opacity: .5;
+    width: 210px;
+}
+
+.blue {
+    background: linear-gradient(to bottom right, blue, MidnightBlue);
+    border: 10px solid #0707A7;
+    border-left: none;
+    border-top: none;
+    border-top-left-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.green {
+    background: linear-gradient(to bottom right, green, darkgreen);
+    border: 10px solid #1D752C;
+    border-bottom-left-radius: 50%;
+    border-left: none;
+    border-top: none;
+    margin-left: 20px;
+    margin-top: 260px;
+    position: absolute;
+
+}
+.lightSquare  {
+    opacity: 1;
+}
+
+.red {
+
+    background: linear-gradient(to bottom right, red, maroon);
+    border: 10px solid #D41E1E;
+    border-left: none;
+    border-top: none;
+    border-top-right-radius: 50%;
+    margin-left: 260px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.toggle {
+    color: white;
+    display: none;
+    margin-left: 550px;
+    position: absolute;
+}
+
+.yellow {
+    background: linear-gradient(to bottom right, yellow, goldenrod);
+    border: 10px solid #E0EC23;
+    border-bottom-right-radius: 50%;
+    border-left: none;
+    border-top: none;
+    margin-left: 260px;
+    margin-top: 260px;
+    position: absolute;
+}
+
+#black_box  {
+    background: linear-gradient(to bottom right, #2D2D2D, black);
+    border: 10px solid #292525;
+    border-left: none;
+    border-radius: 25%;
+    border-top: none;
+    height: 500px;
+    margin-left: 3px;
+    position: absolute;
+    width: 500px;
+}
+
+#inner_circle   {
+    background: linear-gradient(to bottom right, #2D2D2D, black);
+    border: 4px solid #2F2929;
+    border-left: none;
+    border-radius: 50%;
+    border-top: none;
+    height: 250px;
+    margin-top: 130px;
+    margin-left: 130px;
+    position: absolute;
+    width: 250px;
+
+}
+
+#rounds {
+    background-color: #3C1616;
+    border: 4px solid #1D1C1C;
+    border-bottom: none;
+    border-right: none;
+    color: red;
+    font-size: 20px;
+    height: 30px;
+    margin-left: 205px;
+    margin-top: 200px;
+    position: absolute;
+    width: 100px;
+}
+
+#start  {
+    background: linear-gradient(to bottom right, #2D2D2D, black);
+    border: 5px solid #1D1C1C;
+    border-radius: 10%;
+    border-left: none;
+    border-top: none;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    height: 80px;
+    margin-left: 185px;
+    margin-top: 260px;
+    position: absolute;
+    width: 140px;
+}
+
+#text1  {
+    color: #505050;
+    font-size: 15px;
+    margin-left: 170px;
+    margin-top: 0;
+    position: absolute;
+}
+
+

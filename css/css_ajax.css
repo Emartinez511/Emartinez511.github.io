@@ -1,0 +1,34 @@
+body {
+    background-color: #FFD291;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: #91D4FF;
+}
+
+td {
+    text-align: center;
+    width: 100px;
+    font-weight: 30px;
+    height: 50px;
+}
+
+th {
+    text-align: center;
+    font-size: 2    0px;
+    background-color: #A1421B
+}
+
+table   {
+    text-align: center;
+    width: 200px;
+
+}
+
+tr  {
+    
+    border-width: 20px;
+}

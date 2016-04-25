@@ -1,0 +1,53 @@
+.ribbon img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.cube { 
+    border: 1px solid black;
+    color: white;
+    float: left;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    padding: 10px;
+    width: 50px;
+} 
+
+.cube img {
+    position: relative;
+    top: -100px;
+    right: -40px;
+}
+
+.cube:nth-child(3n+2) {
+    clear: left;
+}
+
+.red_box {
+    background-color: #D84231;
+}
+
+.orange_box {
+    background-color: #EAAE33;
+}
+
+.yellow_box {
+    background-color: #FCF733;
+}
+
+.green_box {
+    background-color: #578C05;
+}
+
+.blue_box {
+    background-color: #234AFB;   
+}
+
+.violet_box {
+    background-color: #DF8BF0;
+}
+

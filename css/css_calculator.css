@@ -1,0 +1,236 @@
+body {
+    background-image: url(/img/adventure.jpg);
+    background-size:cover;
+}
+
+button {
+    background-color: transparent;
+    border-width: 0;
+    font-family: 'Press Start 2P', cursive;
+    height: 3em;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    width: 6em;
+
+}
+
+button:hover {
+    background-color: black; /* Green */
+    color: white;
+}
+
+.bmo_body {
+    background-color: #2ABEB2;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 500px;
+    margin: 0 auto;
+    position: absolute;
+    width: 400px;
+
+}
+
+.bmo_face {
+    background-color: #B9DFCA;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Press Start 2P', cursive;    
+    height: 320px;
+    margin: 10px 0 0 20px;
+    position: absolute;
+    text-align: center;
+    width: 360px;
+}
+
+.bmo_face_off {
+    background-color: #B9DFCA;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Press Start 2P', cursive;    
+    height: 240px;
+    margin: 10px 0 0 20px;
+    position: absolute;
+    text-align: center;
+    width: 360px;
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+#input_a, #input_b {
+    background-color: transparent;
+    border-width: 0;
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 15px;
+    height: 3em;
+    width: 6em;
+} 
+
+#input_op {
+    background-color: transparent;
+    border-width: 0;
+    font-family: 'Press Start 2P', cursive; 
+    height: 3em;
+    width: 2em;
+}
+
+
+
+
+/*LOWER BODY*/
+
+#bmo_round_green {
+    background: #16F935;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    height: 20px;
+    margin: 410px 0 0 320px;
+    position: absolute;
+    width: 20px;
+}
+
+#bmo_round_green2 {
+    background: #397220;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    height: 20px;
+    margin: 410px 0 0 324px;
+    position: absolute;
+    width: 20px;
+}
+
+#bmo_round_button {
+    background: #0A558E;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    height: 30px;
+    margin: 350px 0 0 320px;
+    position: absolute;
+    width: 30px;
+    font-size: 8px;
+}
+
+#bmo_round_button2 {
+    background: #161553;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    height: 30px;
+    margin: 350px 0 0 324px;
+    position: absolute;
+    width: 30px;
+    font-size: 8px;
+}
+
+#bmo_round_red {
+    background: #FF394C;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    height: 50px;
+    margin: 430px 0 0 240px;
+    position: absolute;
+    width: 50px;
+}
+
+#bmo_round_red2 {
+    background: #880535;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    height: 50px;
+    margin: 430px 0 0 244px;
+    position: absolute;
+    width: 50px;
+}
+
+#bmo_slot {
+    background-color: #0E3D29;
+    border-radius: 20px;
+    height: 10px;
+    border: 2px solid  black;
+    margin:350px 0 0 25px;
+    position: absolute;
+    width: 150px;
+}
+
+#bmo_slot2 {
+    background-color: #304292;
+    border: 2px solid  black;
+    border-radius: 20px;
+    height: 10px;
+    margin:460px 0 0 25px;
+    position: absolute;
+    width: 50px;
+}
+
+#bmo_slot3 {
+    background-color: #304292;
+    border: 2px solid  black;
+    border-radius: 20px;
+    height: 10px;
+    margin:460px 0 0 100px;
+    position: absolute;
+    width: 50px;
+}
+
+#cross {
+  background: #958C17;
+  height: 50px;
+  margin: 390px 0 0 45px;
+  position: absolute;
+  width: 20px;
+
+}
+
+#cross:after {
+  background: #958C17;
+  content: "";
+  height: 20px;
+  left: -15px;
+  position: absolute;
+  top: 15px;
+  width: 50px;
+}
+
+#cross2 {
+  background: #EED701;
+  height: 50px;
+  margin: 390px 0 0 40px;
+  position: absolute;
+  width: 20px;
+}
+
+#cross2:after {
+  background: #EED701;
+  content: "";
+  height: 20px;
+  left: -15px;
+  position: absolute;
+  top: 15px;
+  width: 50px;
+}
+
+#triangle-up {
+    border-bottom: 30px solid #44C0DF;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    height: 0;
+    margin: 380px 0 0 250px;
+    position: absolute;
+    width: 0;
+}
+
+#triangle-up2 {
+    border-bottom: 30px solid #3E7983;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    height: 0;
+    margin: 380px 0 0 253px;
+    position: absolute;
+    width: 0;
+}
+
+

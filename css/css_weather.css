@@ -1,0 +1,81 @@
+#map-canvas {
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+#day_1, #day_2, #day_3 {
+    width: 160px;
+    background-color: #F3FFBD;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+}
+
+#main_temps {
+    font-weight: bold;
+}
+
+#day_1  {
+    margin-left: -40px;
+}
+
+#day_2  {
+    margin-left: 130px;
+}
+
+#day_3  {
+    margin-left: 300px;
+}
+
+#long_lat   {
+    margin-left: 430px;
+}
+
+#long, #lat {
+    display: none;
+}
+
+#weather_info {
+    margin-left: 650px;
+    margin-top: 60px;
+    /*margin-bottom: 200px;*/
+    position: absolute;
+}
+
+#button1    {
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #247BA0;
+    color: white;
+    margin-left: 470px;
+}
+
+body    {
+    background-color: #70C1B3;
+}
+
+#forecast_back  {
+    background-color: #B2DBBF;
+    height: 400px;
+    width: 500px;
+    margin-left: 610px;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+h1  {
+    background-color: #B2DBBF;
+    text-align: center;
+    border-radius: 2px;
+    width: 400px;
+    margin-left: 350px;
+    font-size: 40px;   
+}
+
+#cityName {
+    text-align: center;
+    margin-left: 130px;
+}

@@ -1,0 +1,78 @@
+/*Color for headers*/
+h1{
+	color: rgb(14, 146, 178);
+	text-decoration: underline;
+}
+
+h2 {
+	color: rgb(0, 150, 255);
+	text-decoration: underline;
+}
+
+body { 
+	background-color: rgb(255, 255, 194);
+	background-image: url(/img/skulls.png);
+	font-family: 'Special Elite', cursive, Sans-Serif;
+	font-size: 1.5em; 
+}
+
+img.resize{
+   max-width:40%;
+   max-height:40%;
+}
+
+ul {
+	list-style: circle;
+}
+
+ol {
+	list-style: lower-roman;
+
+}
+/*Link settings*/
+
+a:link {
+	color: rgb(255, 179, 122);
+}
+
+a:visited {
+	color: rgb(255, 110, 0);
+}
+
+a:hover {
+	color: darkred;
+}
+
+a:active {
+	color: black;
+}
+
+/*Table settings*/
+
+table{
+	border-color: blue;
+	border-spacing: 0;
+	border-style: dotted;
+}
+th {
+	background-color: rgba(255, 179, 122, .7);
+	font-size: .75em;
+}
+
+td {
+	text-align: center;
+}	
+
+tr:hover {
+	background-color: #f5f5f5
+}
+
+tr:nth-child(odd) {
+	background: rgba(14, 146, 178, .5);
+}
+
+tr:nth-child(even) {
+	background: rgba(255, 255, 194, .5);
+}
+
+
