@@ -7,8 +7,6 @@
 </head>
 <body>
 <?php require 'navbar.php' ?>
-
-
 	<div class="container-fluid">
 	   
 		

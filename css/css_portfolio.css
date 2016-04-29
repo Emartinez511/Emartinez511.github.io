@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(104, 151, 196);
+    background-color: #75DCBA;
     /*background-image: url(/img/blackmamba.png);*/
 }
 .navbar-brand img {
-    height: 35px;
-    width: 70px;
+    height: 30px;
+    width: 40px;
 }
 
 #header_img {
@@ -106,8 +106,13 @@ div.jumbotron   {
 /* Featurettes
 ------------------------- */
 
+.info_boxes {
+  text-align: center;
+}
+
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  border-color: black;
 }
 
 /* Thin out the marketing headings */
@@ -127,4 +132,6 @@ div.jumbotron   {
   .featurette-heading {
     margin-top: 120px;
   }
+
+
 

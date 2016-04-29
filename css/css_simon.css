@@ -101,7 +101,7 @@ h1  {
     border-bottom: none;
     border-right: none;
     color: red;
-    font-size: 20px;
+    font-size: 10px;
     height: 30px;
     margin-left: 205px;
     margin-top: 200px;
@@ -131,6 +131,106 @@ h1  {
     margin-left: 170px;
     margin-top: 0;
     position: absolute;
+}
+
+.navbar-brand img {
+    height: 30px;
+    width: 40px;
+}
+
+#header_img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+}
+
+.thumbnail {
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, .3);
+
+}
+
+div.caption {
+    text-align: center;
+}
+
+div.jumbotron   {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .09);
+}
+
+.btn    {
+    border-radius: 0px;
+}
+
+.btn-primary    {
+    border-width: 2px;   
+}
+
+.navbar-wrapper {
+  /*position: absolute;*/
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+
+}
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.sub_background {
+    background-color: rgb(104, 151, 196);   
+}
+
+.jumbotron  {
+    background-color: rgb(104, 151, 196);
+}
+
+
+ .navbar-wrapper {
+    margin-top: 20px;
+  }
+
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+    opacity: .7;
+  }
+
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+    } 
+
+
+.previewer {
+  border-radius: 20%;
+}
+    /*EXPERIMENT*/
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 
