@@ -3,14 +3,14 @@ body {
     /*background-image: url(/img/blackmamba.png);*/
 }
 .navbar-brand img {
-    height: 30px;
+    height: 35px;
     width: 40px;
 }
 
 #header_img {
   height: 200px;
   width: 200px;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 .thumbnail {
@@ -86,7 +86,7 @@ div.jumbotron   {
 
 
 .previewer {
-  border-radius: 20%;
+  border-radius: 5%;
 }
     /*EXPERIMENT*/
 
